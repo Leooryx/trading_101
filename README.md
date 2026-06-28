@@ -53,3 +53,34 @@ Rules can be amended later if needed.
 3. Gains or losses distributions will always follow the proportions of money invested. For example, if my money represents 20% of whole the money invested, I should get 20% of the gains/losses. This follows from Rule n°2, everything is shared.
 4. Every 1st of the month, people can ask to withdraw their own share of money but this must be accepted by at least a majority of the members as this can impact trading strategies.
 5. Exceptions to Rule n°4 include exceptional expenses encountered by any member (health, housing…).
+
+
+# Example of project structure
+
+```text
+algorithmic-trading/
+│
+├── documentations/                         
+│   ├── architecture.md
+│   ├── api.md
+│   ├── algorithms.md
+│   └── deployment.md
+│                 
+├── src/
+│   ├── config/
+│   ├── data/
+│   ├── strategies/
+│   ├── backtesting/
+│   ├── execution/
+│   └── main.py
+│
+├── tests/
+│   ├── test_data.py
+│   ├── test_strategy.py
+│   ├── test_backtesting.py
+│   └── test_execution.py
+│
+└── .github/
+    └── workflows/ # for CD / CI
+```
+
