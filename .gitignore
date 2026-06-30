@@ -1,4 +1,5 @@
 .venv/
+.venv_trading101/
 .env
 __pycache__/
 *.pyc
